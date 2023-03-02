@@ -1,0 +1,25 @@
+{
+  "name": "realtime-chat",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A Real-Time Chat App using Node.js and WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacsilvadev/realtime-chat.git"
+  },
+  "author": "Gabriel Isaac da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaacsilvadev/realtime-chat/issues"
+  },
+  "homepage": "https://github.com/isaacsilvadev/realtime-chat#readme",
+  "dependencies": {
+    "serve-handler": "^6.1.5",
+    "ws": "^8.12.1"
+  }
+}
